@@ -7,34 +7,69 @@
 	<div class="container">
 		<h1>Git Commands</h1>
 		<div class="section">
+			<h2>Initialising git to a project</h2>
 			<p>Create new project and on the root of your project in terminal type the following to initialise git</p>
 			<div class="code">
 				git init
 			</div>
 			<p>This will install git to the project create a hidden file .git within your project.</p>
 		</div>
-		<div class="code">
-			git push origin master
-		</div>
-		<div class="code">
-			git log<br>
-			git log --oneline
-		</div>	
-		<div class="code">
-			git diff
-		</div>	
-		<div class="code">
-			git commit -a -m "Commit Message"
-		</div>	
 
-
-
-
-
-
-
-
+		<div class="section">
+			<h2>Using Git</h2>
+			<p>After creating your project files, open terminal and change directory into your project folder where you .git folder is stored.</p>
+			<p>Type the following command to see the status of your project.</p>
+			<div class="code">
+				git status
+			</div>
+			<p>You should receive the following showing what files have been edited.</p>
+			<div class="code">
+				On branch master</br>
+				Changes not staged for commit:</br>
+				(use "git add file..." to update what will be committed)</br>
+				(use "git checkout -- file..." to discard changes in working directory)</br>
+			</br>
+			<span class="red">
+				modified:   css/styles.css</br>
+				modified:   index.html</br>
+			</span>
+		</br>
+		no changes added to commit (use "git add" and/or "git commit -a")
+	</div>
+	<p>To add the files separately type git add followed by what files you want to add.</p>
+	<div class="code">
+		git add css/styles.css</br>
+		git add index.php
+	</div>
+	<p>If you would like to add all the modified files, type the following:</p>
+	<div class="code">
+		git add .
+	</div>
+	<p>Now if you was to enter the git status command again, you would see which files have been added in green.</p>
+	<div class="code">
+On branch master</br>
+Changes to be committed:</br>
+  (use "git reset HEAD file..." to unstage)</br>
+</br>
+<span class="green">
+	modified:   css/styles.css</br>
+	modified:   index.html</br>
+</span>
+</br>
 
 	</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
 </body>
 </html>

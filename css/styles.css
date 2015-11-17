@@ -1,6 +1,9 @@
 body { font-family: "Lato",sans-serif; font-size: 62.5%; padding: 20px;}
-body p { margin: 0;}
-h1 { color: rgba(23, 21, 21, 0.9); }
+body p { margin: 0; margin-bottom: 5px;}
+h1 { color: rgba(23, 21, 21, 0.9); margin: 0 0 10px 0; }
+h2 { margin: 0 0 10px 0;}
 .container { width: 100%; max-width: 800px; background: #f1f1f1; border: 1px solid #ccc; padding: 20px; margin: 0 auto; }
 .code { background: rgba(23, 21, 21, 0.9); color: #f1f1f1; padding: 5px; font-family: "courier",sans-serif; margin: 10px 0; }
-.section { padding: 10px; background: #FDFDFD; }
+.section { padding: 10px; background: #FDFDFD; margin-bottom: 20px; }
+.red { color: #E81D1D;}
+.green { color: #36D836; }
